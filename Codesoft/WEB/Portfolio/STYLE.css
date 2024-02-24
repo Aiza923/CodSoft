@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.nav{
+    display: flex;
+    padding-left: 55px;
+    padding-bottom: 10px;
+    margin-top: none;
+    line-height: .9cm;
+    background-color: #87d0b9;
+    align-items: center;
+}
+.nav h2{
+    color: white;
+}
+.nav a{
+    display: inline-block;
+    color: #fff;
+    margin-left: 80px;
+    font-size: large;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.name{
+    font-size: 64px;
+    font-weight: 100;
+    margin-top: 30px;
+    color: #fff;
+}
+.hello{
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.profile{
+    padding-top: 5px;
+}
+.profile h3{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 3cm;
+    background-color: #3a5a40;
+    color: #fff;
+}
+.about{
+    padding-top: 30px;
+    padding-left: 50px;
+    color: #fff;
+    background-color: #344e41;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.about p{
+    margin-top: 5px;
+    margin-left: 25rem;
+    line-height: 0.8cm;
+    text-align: justify;
+    max-width: 400px;
+}
+.about button{
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 8px white;
+}
+.about button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+.Skills {
+    width: 100%;
+    height: 50%;
+    background-color: #344e41;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Skills h2{
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+}
+.skill-child,.parent{
+    color: white;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px black double;
+    margin: 1% 0;
+    padding: 2% 1%;
+    border-radius: 50px;
+    border: 2px solid white;
+
+}
+.skill-child{
+    height: 15vh;
+    margin-right: 2rem;
+    flex-direction: column;
+}
+.parent{
+    width: 95%!important;
+    border: none !important;
+}
+.Skills div img{
+    width: 27%;
+}
+.Skills h2{
+    text-align: center;
+    font-size: 30px;
+    line-height: 3cm;
+    background-color: #3a5a40;
+    color: #fff;
+}
+.skill-child {
+    transition: transform 0.3s ease; 
+}
+.skill-child:hover {
+    transform: translateY(-15px); 
+}
+
+.project h3{
+    text-align: center;
+    font-size: 30px;
+    line-height: 3cm;
+    background-color: #3a5a40;
+    color: #fff;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #344e41;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    justify-content: space-evenly;
+    
+}
+.list div{
+    padding: 3px;
+    max-width: 400px;
+}
+.list div {
+    transition: transform 0.3s ease; 
+}
+
+.list div:hover {
+    transform: translateY(-8px); 
+}
+
+.card1,.card2,.card3,.card4,.card5,.card6 {
+    padding: 20px 20px;
+    margin: 5px 5px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+.card1,.card2,.card3,.card4,.card5,.card6 h4{
+    text-align: center;
+}
+.list p{
+    line-height: 0.7cm;
+
+}
+
+
+.contact h3{
+    text-align: center;
+    font-size: 30px;
+    line-height: 3cm;
+    background-color: #3a5a40;
+    color: #fff;
+}
+.contact{
+    align-items: center;
+}
+.contact input{
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+    padding: 7px;
+    background-color: #cfcccc;
+}
+.msg{
+    display: grid;
+    padding: 50px 0;
+    grid-gap: 10px;
+    /*background-color: #cfcccc;*/
+    background-color: #a3b18a;
+}
+.msg input{
+    width: 30%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px white;
+    
+}
+.msg button{
+    width: 10%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 7px 8px white;
+    padding: 10px;
+}
+.msg button:hover{
+    color: white;
+    background-color: black;
+}
+.end{
+    background-color: #a3b18a;
+    color: #000;
+    line-height: 3cm;
+    text-align: center;
+}
+
+.icons {
+    background-color: #a3b18a;
+    line-height: 2cm;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.icons img {
+    width: 5%;
+    padding: 10px;
+}

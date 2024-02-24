@@ -1,0 +1,45 @@
+.container{
+    text-align: center;
+    margin-top: 23px;
+    font-size: 1.5em;
+}
+
+table{
+    margin: auto;
+}
+
+input::placeholder{
+    color: black;
+}
+
+input{
+    font-size: 34px;
+    border: 3px solid rgb(73, 80, 80);
+    width: auto;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 3px 15px rgba(134, 131, 131, 0.5);
+}
+
+button{
+    font-size: 40px;
+    background-color: lightgrey;
+    border: 3px solid rgb(73, 80, 80);
+    width: 104px;
+    height: 60px;
+    margin: 3px;
+    border-radius: 50px;
+    box-shadow: 0px 3px 15px rgba(134, 131, 131, 0.5);
+    cursor: pointer;
+}
+
+.calculator{
+    display: inline-block;
+    background-color: beige;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px rgba(8, 8, 8, 0.5);
+}
+
+
